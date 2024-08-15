@@ -11,8 +11,8 @@ corrector = pipeline(
 )
 
 # Streamlit app
-st.set_page_config(page_title="Chat With Dr.Morgans", page_icon=":pencil:")
-st.title("Chat With Dr.Morgans")
+st.set_page_config(page_title="Chat With Dr.Morgan", page_icon=":pencil:")
+st.title("Chat With Dr.Morgan")
 
 # Initialize chat history
 if "messages" not in st.session_state:
